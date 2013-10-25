@@ -1,0 +1,30 @@
+.carousel .item {
+  height: 350px;
+  background-color: #777;
+}
+.marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+[class*="col-"] {
+
+
+ background-color: #eee;
+ background-color: rgba(86,61,124,.15);
+ 
+}
+.navbar
+{
+margin-bottom:0px !important;
+background-color:black !important;
+}
+
+.footer
+{
+padding-top:100px !important;
+}
+.img-thumbnail
+{
+background-color:black !important;
+border:0px !important;
+}
