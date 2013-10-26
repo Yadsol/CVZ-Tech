@@ -43,15 +43,15 @@ border:0px !important;
     .carousel-control {
       height: 0px;
       margin-top: 12%;
-      font-size: 40px;
+      font-size: 50px;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
       background-color: transparent;
       border: 0px;
-      z-index: 9;
+      z-index: 7;
 	  width:0%;
 	  margin-right:10%;
 	  margin-left:10%;
-    }
+	}
 
     .carousel img {
       position: absolute;
