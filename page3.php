@@ -9,32 +9,12 @@
 <div class="container">
 <!-- pannel contain nav bar&logo
     ================================================== -->
-<div class="header">
+<?php 
+include 'header.php';
+ ?>
 
-<div class="navbar navbar-inverse navbar"> 
-<div id="carbonads-container">
-<img class="img-thumbnail pull-left"src="img/cvzlogo1.jpg" style="background-color:black; border:0px;"></img></div>
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand "href="#" ></a>
- </div>
- <div class="navbar-collapse collapse">
- <ul class="nav navbar-nav pull-right">
-<li class="index.html"><a href="index.html">HOME</a></li>
-<li class="page1.html"><a href="page1.html">services</a></li>
- <li><a href="page2.html">About</a></li>
-<li><a href="page3.html">Contact</a></li>
-</ul>
-</div>
-</div>
- </div>
- </div>
- <div class="panel panel-default">
+<div class="panel panel-default">
+
 <div class="row" style="margin:0px;">
 <div class="col-sm-5 col-md-2" style="background-color:white">
 <div class="table-bordered">
@@ -57,13 +37,9 @@ Sales Number      :	  <a style="padding-left:65px;">0000-0000-0000</a><br><br>
 Support Number    :  <a style="padding-left:50px;"> 0000-0000-0000</a>
 </p>
 </div></div></div>
- <div class="panel panel-default" style="margin-top:160px;">     
-<div class="footer">
-
-<p class="pull-right" style="padding-right:100px;"><a href="page3.html">contact</a> &middot; </p><p class="pull-right" style="padding-right:50px;">
-<a href="page2.html">about</a></p><br>
-<p class="text-center">&copy;2013 Company, Inc. &middot; </p>
-</div></div>
+<?php 
+include 'footer.php';
+ ?>
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<head>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+
+<script src="js/jquery.js"></script> 
+<script> 
+function loadContent() 
+{ 
+   $("#includedContent").load("header.html"); 
+} 
+
+</script> 
 </head>
-<body>
+
+
+<body> 
 <div class="container">
-<div class="navbar navbar-inverse navbar" style="background-color:black"> 
-<div id="carbonads-container" style=" border:0px solid black;padding-top:0px;background-color:black;">
-<img class="img-thumbnail pull-left"src="img/cvzlogo1.jpg" style="background-color:black; border:0px;"></img></div>
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand "href="#" ></a>
- </div>
- <div class="navbar-collapse collapse">
- <ul class="nav navbar-nav pull-right">
-<li class="#Home"><a href="index.html">HOME</a></li>
-<li class="#services"><a href="page1.html">services</a></li>
- <li><a href="page2.html">About</a></li>
-<li><a href="page3.html">Contact</a></li>
-</ul>
-</div>
-</div>
- </div>
+<?php 
+include 'header.php';
+ ?>
 <div class="panel panel-default">
 <div class="row" style="margin:0px;">
 <div class="col-sm-5 col-md-2" style="background-color:white">
@@ -61,13 +52,9 @@ When a company becomes as successful as IPOWER, it's easy to become complacent. 
 </div>
 </div>
 </div>
-<div class="panel panel-default" style="padding-top:0px; border:0px;">     
-<div class="footer" style="padding-top:50px; border:0px;">
-
-<p class="pull-right" style="padding-right:100px;"><a href="page3.html">contact</a> &middot; </p><p class="pull-right" style="padding-right:50px;">
-<a href="page2.html">about</a></p><br>
-<p class="text-center">&copy;2013 Company, Inc. &middot; </p>
-</div></div></div>
+<?php 
+include 'footer.php';
+ ?></div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/holder.js"></script>

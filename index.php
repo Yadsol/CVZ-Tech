@@ -2,35 +2,13 @@
 <html lang="en">
 <head>
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/footer.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">  
 </head>
 <body>
 <div class="container">
-<div class="header">
-<div class="navbar navbar-inverse navbar"> 
-<div id="carbonads-container">
-<img class="img-thumbnail pull-left"src="img/cvzlogo1.jpg"></img></div>
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand "href="#" ></a>
- </div>
- <div class="navbar-collapse collapse">
- <ul class="nav navbar-nav pull-right">
-<li class="#Home"><a href="index.html">HOME</a></li>
-<li class="#services"><a href="page1.html">SERVICES</a></li>
- <li><a href="page2.html">ABOUT</a></li>
-<li><a href="page3.html">CONTACT</a></li>
-</ul>
-</div>
-</div>
- </div
- </div>
+<?php 
+include 'header.php';
+ ?>
 <!-- Carousel
     ================================================== -->
 <div id="myCarousel" class="carousel slide">
@@ -48,7 +26,6 @@
 <div class="container">
 <div class="carousel-caption">
 <br>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
 </div>
 </div>
 </div>
@@ -56,9 +33,6 @@
 <img class="img" src="img/l4.jpg" alt="" style="height:100%;"></img>
 <div class="container">
 <div class="carousel-caption">
-<h3>Another example headline.</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
 </div>
 </div>
 </div>
@@ -66,10 +40,7 @@
 <img src="img/l3.jpg" alt="" style="height:100%;"></img>
 <div class="container">
 <div class="carousel-caption">
-<h3>One more for good measure.</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
- </div>
+</div>
  </div>
  </div>
  </div>
@@ -88,50 +59,49 @@
 <div class="row" style="margin:0px;">
         
 <div class="col-lg-4">
-          
+      <br>    
 <img class="img-circle"  src="img/wh2.gif"  alt="Generic placeholder image">
           
 <h2>WEB HOSTING</h2>
           
 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. PraesentNullam id dolor id nibh commodo cursus magna.</p>
           
-<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+<p><a class="btn btn-default" href="page1.php">View details &raquo;</a></p>
         
 </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          
+          <br>
 <img class="img-circle" src="img/wd2.gif"  alt="Generic placeholder image">
           
 <h2>WEB DESIDNING</h2>
           
 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           
-<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+<p><a class="btn btn-default" href="page1.php">View details &raquo;</a></p>
         
 </div>
 <!-- /.col-lg-4 -->
         
 <div class="col-lg-4">
-          
+         <br> 
 <img class="img-circle" src="img/s1.gif"  alt="Generic placeholder image">
           
 <h2>SERVICES</h2>
           
 <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
          
- <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+ <p><a class="btn btn-default" href="page1.php">View details &raquo;</a></p>
         
 </div><!-- /.col-lg-4 -->
       
 </div><!-- /.row -->
 
 
- <div class="panel panel-default" style="padding-top:0px; border:0px;">     
-<div class="footer">
-<p class="pull-right" style="padding-right:100px;"><a href="page3.html">CONTACT</a> &middot; </p><p class="pull-right" style="padding-right:100px;">
-<a href="page2.html">ABOUT</a></p><br>
-<p class="text-center">&copy;2013 Company, Inc. &middot; </p>
-</div></div></div>
+</div>
+<?php 
+include 'footer.php';
+ ?>
+
 <!-- Bootstrap core JavaScript
     ================================================== -->
     
