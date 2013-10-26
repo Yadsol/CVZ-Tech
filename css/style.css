@@ -1,12 +1,10 @@
 .carousel .item {
   height: 350px;
   background-color: #777;
-  
 }
 .marketing {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-	padding-top:10px !important;
+    padding-left: 0;
+    padding-right: 0;
   }
 [class*="col-"] {
 
@@ -34,7 +32,7 @@ border:0px !important;
  
     /* Carousel base class */
     .carousel {
-      margin-bottom: 60px;
+      margin-bottom: 10px;
     }
 
     .carousel .container {
@@ -66,7 +64,7 @@ border:0px !important;
     .carousel-caption {
       background-color: transparent;
       position: static;
-      max-width: 85%;
+      max-width: 65%;
       padding-right:0%;
       margin-top: 5%;
 	  margin-left:20%;
@@ -82,5 +80,4 @@ border:0px !important;
     .carousel-caption .btn {
       margin-top: 5px;
     }
-	}
 	
