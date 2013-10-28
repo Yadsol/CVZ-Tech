@@ -27,9 +27,9 @@ include 'header.php';
 <tr><td>Feedback &Suggestions</td></tr>
 </table></div></div>
 <div class="col-md-9 col-md-offset-1" style="background-color:white;padding-top:10px;">
-<p class="text-left"><strong><h2>Contacting CVZ_Technology Support</h2></strong></p><br>
+<p class="text-left"><strong><h3>Contacting CVZ_Technology Support</h3></strong></p><br>
 <p class="text-muted">Our friendly Support Team is available to help you 24 hours a day, seven days a week. We look forward to hearing from you!</p>
-<div class="col-sm-5 col-md-2 pull-right" style="background-color:white;margin-right:200px;margin-bottom:100px;">
+<div class="col-sm-5 col-md-2 pull-right" style="background-color:white;margin-right:20%;margin-bottom:10%;">
 <img src="img/co3.gif"></img></div>
 <p class="text-muted"><h3>Telephone</h3></p>
 <p class="text-muted">
